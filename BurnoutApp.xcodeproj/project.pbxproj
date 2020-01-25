@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18376ADA23DCD6890035C8EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18376AD923DCD6890035C8EF /* AppDelegate.swift */; };
+		18376ADC23DCD6890035C8EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18376ADB23DCD6890035C8EF /* SceneDelegate.swift */; };
+		18376ADE23DCD6890035C8EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18376ADD23DCD6890035C8EF /* ViewController.swift */; };
+		18376AE123DCD6890035C8EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18376ADF23DCD6890035C8EF /* Main.storyboard */; };
+		18376AE323DCD68E0035C8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18376AE223DCD68E0035C8EF /* Assets.xcassets */; };
+		18376AE623DCD68E0035C8EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18376AE423DCD68E0035C8EF /* LaunchScreen.storyboard */; };
+		18376AF123DCD68E0035C8EF /* BurnoutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18376AF023DCD68E0035C8EF /* BurnoutAppTests.swift */; };
+		18376AFC23DCD68E0035C8EF /* BurnoutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18376AFB23DCD68E0035C8EF /* BurnoutAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18376AED23DCD68E0035C8EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18376ACE23DCD6890035C8EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18376AD523DCD6890035C8EF;
+			remoteInfo = BurnoutApp;
+		};
+		18376AF823DCD68E0035C8EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18376ACE23DCD6890035C8EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18376AD523DCD6890035C8EF;
+			remoteInfo = BurnoutApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18376AD623DCD6890035C8EF /* BurnoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurnoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18376AD923DCD6890035C8EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18376ADB23DCD6890035C8EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18376ADD23DCD6890035C8EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18376AE023DCD6890035C8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18376AE223DCD68E0035C8EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18376AE523DCD68E0035C8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18376AE723DCD68E0035C8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18376AEC23DCD68E0035C8EF /* BurnoutAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurnoutAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18376AF023DCD68E0035C8EF /* BurnoutAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurnoutAppTests.swift; sourceTree = "<group>"; };
+		18376AF223DCD68E0035C8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18376AF723DCD68E0035C8EF /* BurnoutAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurnoutAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18376AFB23DCD68E0035C8EF /* BurnoutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurnoutAppUITests.swift; sourceTree = "<group>"; };
+		18376AFD23DCD68E0035C8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18376AD323DCD6890035C8EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18376AE923DCD68E0035C8EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18376AF423DCD68E0035C8EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18376ACD23DCD6890035C8EF = {
+			isa = PBXGroup;
+			children = (
+				18376AD823DCD6890035C8EF /* BurnoutApp */,
+				18376AEF23DCD68E0035C8EF /* BurnoutAppTests */,
+				18376AFA23DCD68E0035C8EF /* BurnoutAppUITests */,
+				18376AD723DCD6890035C8EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18376AD723DCD6890035C8EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18376AD623DCD6890035C8EF /* BurnoutApp.app */,
+				18376AEC23DCD68E0035C8EF /* BurnoutAppTests.xctest */,
+				18376AF723DCD68E0035C8EF /* BurnoutAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18376AD823DCD6890035C8EF /* BurnoutApp */ = {
+			isa = PBXGroup;
+			children = (
+				18376AD923DCD6890035C8EF /* AppDelegate.swift */,
+				18376ADB23DCD6890035C8EF /* SceneDelegate.swift */,
+				18376ADD23DCD6890035C8EF /* ViewController.swift */,
+				18376ADF23DCD6890035C8EF /* Main.storyboard */,
+				18376AE223DCD68E0035C8EF /* Assets.xcassets */,
+				18376AE423DCD68E0035C8EF /* LaunchScreen.storyboard */,
+				18376AE723DCD68E0035C8EF /* Info.plist */,
+			);
+			path = BurnoutApp;
+			sourceTree = "<group>";
+		};
+		18376AEF23DCD68E0035C8EF /* BurnoutAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				18376AF023DCD68E0035C8EF /* BurnoutAppTests.swift */,
+				18376AF223DCD68E0035C8EF /* Info.plist */,
+			);
+			path = BurnoutAppTests;
+			sourceTree = "<group>";
+		};
+		18376AFA23DCD68E0035C8EF /* BurnoutAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18376AFB23DCD68E0035C8EF /* BurnoutAppUITests.swift */,
+				18376AFD23DCD68E0035C8EF /* Info.plist */,
+			);
+			path = BurnoutAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18376AD523DCD6890035C8EF /* BurnoutApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18376B0023DCD68E0035C8EF /* Build configuration list for PBXNativeTarget "BurnoutApp" */;
+			buildPhases = (
+				18376AD223DCD6890035C8EF /* Sources */,
+				18376AD323DCD6890035C8EF /* Frameworks */,
+				18376AD423DCD6890035C8EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BurnoutApp;
+			productName = BurnoutApp;
+			productReference = 18376AD623DCD6890035C8EF /* BurnoutApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18376AEB23DCD68E0035C8EF /* BurnoutAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18376B0323DCD68E0035C8EF /* Build configuration list for PBXNativeTarget "BurnoutAppTests" */;
+			buildPhases = (
+				18376AE823DCD68E0035C8EF /* Sources */,
+				18376AE923DCD68E0035C8EF /* Frameworks */,
+				18376AEA23DCD68E0035C8EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18376AEE23DCD68E0035C8EF /* PBXTargetDependency */,
+			);
+			name = BurnoutAppTests;
+			productName = BurnoutAppTests;
+			productReference = 18376AEC23DCD68E0035C8EF /* BurnoutAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18376AF623DCD68E0035C8EF /* BurnoutAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18376B0623DCD68E0035C8EF /* Build configuration list for PBXNativeTarget "BurnoutAppUITests" */;
+			buildPhases = (
+				18376AF323DCD68E0035C8EF /* Sources */,
+				18376AF423DCD68E0035C8EF /* Frameworks */,
+				18376AF523DCD68E0035C8EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18376AF923DCD68E0035C8EF /* PBXTargetDependency */,
+			);
+			name = BurnoutAppUITests;
+			productName = BurnoutAppUITests;
+			productReference = 18376AF723DCD68E0035C8EF /* BurnoutAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18376ACE23DCD6890035C8EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18376AD523DCD6890035C8EF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					18376AEB23DCD68E0035C8EF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 18376AD523DCD6890035C8EF;
+					};
+					18376AF623DCD68E0035C8EF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 18376AD523DCD6890035C8EF;
+					};
+				};
+			};
+			buildConfigurationList = 18376AD123DCD6890035C8EF /* Build configuration list for PBXProject "BurnoutApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18376ACD23DCD6890035C8EF;
+			productRefGroup = 18376AD723DCD6890035C8EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18376AD523DCD6890035C8EF /* BurnoutApp */,
+				18376AEB23DCD68E0035C8EF /* BurnoutAppTests */,
+				18376AF623DCD68E0035C8EF /* BurnoutAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18376AD423DCD6890035C8EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18376AE623DCD68E0035C8EF /* LaunchScreen.storyboard in Resources */,
+				18376AE323DCD68E0035C8EF /* Assets.xcassets in Resources */,
+				18376AE123DCD6890035C8EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18376AEA23DCD68E0035C8EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18376AF523DCD68E0035C8EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18376AD223DCD6890035C8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18376ADE23DCD6890035C8EF /* ViewController.swift in Sources */,
+				18376ADA23DCD6890035C8EF /* AppDelegate.swift in Sources */,
+				18376ADC23DCD6890035C8EF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18376AE823DCD68E0035C8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18376AF123DCD68E0035C8EF /* BurnoutAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18376AF323DCD68E0035C8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18376AFC23DCD68E0035C8EF /* BurnoutAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18376AEE23DCD68E0035C8EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18376AD523DCD6890035C8EF /* BurnoutApp */;
+			targetProxy = 18376AED23DCD68E0035C8EF /* PBXContainerItemProxy */;
+		};
+		18376AF923DCD68E0035C8EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18376AD523DCD6890035C8EF /* BurnoutApp */;
+			targetProxy = 18376AF823DCD68E0035C8EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18376ADF23DCD6890035C8EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18376AE023DCD6890035C8EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18376AE423DCD68E0035C8EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18376AE523DCD68E0035C8EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18376AFE23DCD68E0035C8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18376AFF23DCD68E0035C8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18376B0123DCD68E0035C8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W77P76PVZ2;
+				INFOPLIST_FILE = BurnoutApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BurnoutApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18376B0223DCD68E0035C8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W77P76PVZ2;
+				INFOPLIST_FILE = BurnoutApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BurnoutApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18376B0423DCD68E0035C8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W77P76PVZ2;
+				INFOPLIST_FILE = BurnoutAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BurnoutAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurnoutApp.app/BurnoutApp";
+			};
+			name = Debug;
+		};
+		18376B0523DCD68E0035C8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W77P76PVZ2;
+				INFOPLIST_FILE = BurnoutAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BurnoutAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurnoutApp.app/BurnoutApp";
+			};
+			name = Release;
+		};
+		18376B0723DCD68E0035C8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W77P76PVZ2;
+				INFOPLIST_FILE = BurnoutAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BurnoutAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BurnoutApp;
+			};
+			name = Debug;
+		};
+		18376B0823DCD68E0035C8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W77P76PVZ2;
+				INFOPLIST_FILE = BurnoutAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BurnoutAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BurnoutApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18376AD123DCD6890035C8EF /* Build configuration list for PBXProject "BurnoutApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18376AFE23DCD68E0035C8EF /* Debug */,
+				18376AFF23DCD68E0035C8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18376B0023DCD68E0035C8EF /* Build configuration list for PBXNativeTarget "BurnoutApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18376B0123DCD68E0035C8EF /* Debug */,
+				18376B0223DCD68E0035C8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18376B0323DCD68E0035C8EF /* Build configuration list for PBXNativeTarget "BurnoutAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18376B0423DCD68E0035C8EF /* Debug */,
+				18376B0523DCD68E0035C8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18376B0623DCD68E0035C8EF /* Build configuration list for PBXNativeTarget "BurnoutAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18376B0723DCD68E0035C8EF /* Debug */,
+				18376B0823DCD68E0035C8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18376ACE23DCD6890035C8EF /* Project object */;
+}
